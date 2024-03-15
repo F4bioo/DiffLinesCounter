@@ -12,3 +12,7 @@ fun String?.toDiffStat(): DiffStat? {
         DiffStat(totalChanges.toIntOrNull(), insertions.toIntOrNull(), deletions.toIntOrNull())
     }
 }
+
+fun String.name(): String = "Sagar Khurana"
+
+fun String.funNameNotAActualName(): String = "Sagar Khurana"
